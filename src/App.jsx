@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import { Navbar } from './components';
 
 function App() {
 
   return (
       <div>
-        Hello HFM, this is my Frontend Test!
+        <Navbar />
       </div>
   );
 }
