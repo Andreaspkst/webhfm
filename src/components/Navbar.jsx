@@ -32,9 +32,9 @@ const Navbar = () => {
 
         {/* Tablet/Mobile Menu */}
         <div className="block lg:hidden" onClick={handleNav} >
-          {!nav ? <IoCloseOutline color='white' size={40}/> : <HiOutlineMenuAlt3 color='white' size={35}/> }
+          {nav ? <IoCloseOutline color='white' size={40}/> : <HiOutlineMenuAlt3 color='white' size={35}/> }
         </div>
-        <div className={!nav ? ' z-10 fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-600 bg-[#000300] text-white ease-in-out duration-500 lg:hidden' : ' fixed left-[-100%]'}>
+        <div className={nav ? ' z-10 fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-600 bg-[#000300] text-white ease-in-out duration-500 lg:hidden' : ' fixed left-[-100%]'}>
           <img width={150} className='m-4' src={HFLogo} alt="logo" />
           <ul className='p-4 uppercase'>
             <li className='p-5 border-b border-gray-600'><IoHome className='' /></li>

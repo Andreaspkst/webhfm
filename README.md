@@ -16,6 +16,7 @@ Github Project: https://github.com/Andreaspkst
 - Created Components Folder, created index.js to Render Dynamically Components on the App
 - Installed react-icons, Created Navbar.jsx in Components Folder
 - Created Hero.jsx in Components Folder
+- Installed Axios to Get Data as Flags
 
 ============================
 
