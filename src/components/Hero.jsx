@@ -7,7 +7,9 @@ import icon4 from '../assets/icon4.png'
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col-3 justify-between ">
+    
+    <div className="w-full justify-between ">
+        <h1 className='flex mt-3 text-3xl justify-center w-full'>This is dummy text</h1>
         <div className="grid md:grid-cols-3 max-w-[1240px] m-auto">
           <div className="md:mt-20 md:ml-20">
             <div className="grid justify-center">
@@ -21,7 +23,7 @@ const Hero = () => {
 
           </div>
           <div className="">
-            <img className='' src={mobilex} alt="mobilephones" />
+            <img className='flex justify-center w-full' src={mobilex} alt="mobilephones" />
           </div>
           <div className="md:mt-20 md:mr-20">
             <div className="grid justify-center">

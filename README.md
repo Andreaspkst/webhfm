@@ -9,14 +9,16 @@ Developed and Designed by Andreas Papakostas
 #Development
 ============================
 How the Application has been created
-Github Project: https://github.com/Andreaspkst
+Github Project: https://github.com/Andreaspkst/webhfm
 ============================
 
 - Created React App with Vite, Installed Tailwind CSS and Added Assets to the Project
 - Created Components Folder, created index.js to Render Dynamically Components on the App
 - Installed react-icons, Created Navbar.jsx in Components Folder
 - Created Hero.jsx in Components Folder
-- Installed Axios to Get Data as Flags
+- Installed Axios to Get Data for the Countries
+- Completed Registration Section
+- Completed Hero and About Section
 
 ============================
 
