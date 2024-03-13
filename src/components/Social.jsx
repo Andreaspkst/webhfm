@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaTrophy, FaFacebookF, FaTwitter, FaGooglePlusG, FaLinkedinIn, FaYoutube, FaChartBar     } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaGooglePlusG, FaLinkedinIn, FaYoutube, FaChartBar } from "react-icons/fa";
+import { CiTrophy } from "react-icons/ci";
 
 const Social = () => {
   return (
@@ -7,7 +8,7 @@ const Social = () => {
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto ">
          <div className="xl:w-[1000px] block justify-start md:mr-20">
             <div className="flex md:flex md:justify-start sm:justify-center">
-                <FaTrophy className='mt-1 mr-2' color='#FF0000' />
+                <CiTrophy size={25} className='mt-[-2px] mr-2' color='#FF0000' />
                 <p className=' text-gray-400'>Winner of 19 Industry Awards</p>
             </div>
          </div>

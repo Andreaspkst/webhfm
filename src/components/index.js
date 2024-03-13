@@ -5,6 +5,7 @@ import Hero from './Hero.jsx'
 import About from './About.jsx'
 import Download from './Download.jsx'
 import Social from './Social.jsx'
+import Footer from './Footer.jsx';
 
 export {
     Navbar,
@@ -14,4 +15,5 @@ export {
     About,
     Download,
     Social,
+    Footer
 }

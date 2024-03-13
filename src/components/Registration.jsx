@@ -99,7 +99,7 @@ const Reg = () => {
                 <p className="justify-center"> I have read and accepted the privacy policy Trading Forex & CFDs is risky</p>
             </div>
             <div className="flex gap-2 my-5">
-                <button className="bg-[#FF5733] text-white uppercase w-full h-10 my-2">get started</button>
+                <button className="bg-[#FF5733] text-white uppercase w-full h-10 my-2 hover:border-2 hover:border-[#FF5733] hover:bg-transparent hover:text-[#FF5733]">Register Now</button>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { Mobile, Navbar, Registration, Hero, About, Download, Social } from './components';
+import { Mobile, Navbar, Registration, Hero, About, Download, Social, Footer } from './components';
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
         <About />
         <Download />
         <Social />
+        <Footer />
       </div>
   );
 }
