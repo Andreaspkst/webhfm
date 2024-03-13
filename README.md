@@ -8,7 +8,7 @@ Developed and Designed by Andreas Papakostas
 
 #Development
 ============================
-How the Application has been created
+How the Application has been created Step by Step
 Github Project: https://github.com/Andreaspkst/webhfm
 ============================
 
@@ -18,7 +18,11 @@ Github Project: https://github.com/Andreaspkst/webhfm
 - Created Hero.jsx in Components Folder
 - Installed Axios to Get Data for the Countries
 - Completed Registration Section
-- Completed Hero and About Section
+- Completed Hero and About Sections
+- Completed Social and Footer Sections
+- Last Changes/Commit 
+- Reviewing Application
+- Ready to Submit
 
 ============================
 

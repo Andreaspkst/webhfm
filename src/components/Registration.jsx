@@ -46,16 +46,16 @@ const Reg = () => {
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
           <div className="">
             <div className="md:flex md:flex-cols-3 w-auto grid grid-cols-1 py-5 my-10">
-                <input type="text" placeholder="First Name" className="border-2 border-gray-950 md:w-[26%] w-[100%] h-8 md:mx-5 my-5 p-2"/>
-                <input type="text" placeholder="Last Name" className="border-2 border-gray-950 md:w-[26%] w-[100%] h-8 md:mx-5 my-5 p-2"/>
-                <input type="Email" placeholder="Email" className="border-2 border-gray-950 md:w-[26%] w-[100%] h-8 md:mx-5 my-5 p-2"/>
+                <input type="text" placeholder="First Name" className="border-2 border-gray-500 md:w-[26%] w-[100%] h-8 md:mx-5 my-5 p-2"/>
+                <input type="text" placeholder="Last Name" className="border-2 border-gray-500 md:w-[26%] w-[100%] h-8 md:mx-5 my-5 p-2"/>
+                <input type="Email" placeholder="Email" className="border-2 border-gray-500 md:w-[26%] w-[100%] h-8 md:mx-5 my-5 p-2"/>
             </div>
             <div className="grid md:grid-cols-3 max-w-[1240px] m-auto">
                 <div className="">
                     <select
                             value={selectedCountry}
                             onChange={(e) => setSelectedCountry(e.target.value)}
-                            className="border-2 border-gray-950 md:w-[70%] w-[100%] h-8 md:mx-5 "
+                            className="border-2 border-gray-500 md:w-[70%] w-[100%] h-8 md:mx-5 "
                             >
                         <option className=""> Country of Residence </option>
                         {countries.map((item) => {
@@ -68,19 +68,19 @@ const Reg = () => {
                     </select>
                 </div>
                 <div className="w-full flex max-w-[1240px] m-auto md:py-0 py-5">
-                    <div className="h-8 p-1 md:w-[30%] w-[25%] border-2 border-gray-950">
+                    <div className="h-8 p-1 md:w-[30%] w-[25%] border-2 border-gray-500">
                         {searchSelectedCountry && searchSelectedCountry.idd.root}
                         {searchSelectedCountry && searchSelectedCountry.idd.suffixes}
                     </div>
-                    <input type="tel" placeholder="Phone" className="border-2 border-gray-950  md:w-[70%] w-[100%] h-8 ml-2 p-2"/>
+                    <input type="tel" placeholder="Phone" className="border-2 border-gray-500  md:w-[70%] w-[100%] h-8 ml-2 p-2"/>
                 </div>
                 <div className="">
                 <select
                     id="dropdown"
                     name="dropdown"
-                    className="border-2 border-gray-950 md:w-[70%] w-[100%] h-8 md:mx-5"
+                    className="border-2 border-gray-500 md:w-[70%] w-[100%] h-8 md:mx-5"
                 >
-                    <option value="">Currency</option>
+                    <option className="text-gray-500" value="">Currency</option>
                     <option value="option1">USD</option>
                     <option value="option2">EUR</option>
                     <option value="option3">GPB</option>

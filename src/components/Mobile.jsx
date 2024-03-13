@@ -6,9 +6,9 @@ import mobile from '../assets/mobile.png'
 const Mobile = () => {
   return (
     <div className="w-full h-auto flex flex-col justify-between  bg-[url('./assets/bkg.jpg')]">
-        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto ">
-          <div className="flex flex-col justify-center md:items-start w-full px-2 pb-6 text-white">
-            <h1 className='mt-3 text-3xl'>HotForex App</h1>
+        <div className="grid md:grid-cols-2 w-max-[1240px] m-auto ">
+          <div className="flex flex-col text-light justify-center md:items-start w-full px-2 pb-6 text-white">
+            <h1 className='mt-3 text-3xl text-light'>HotForex App</h1>
             <h2 className='text-xl py-1'>Your Indispensable Tool</h2>
             <p className='text-sm'> - Lorem ipsum dolor sit amet.</p>
             <p className='text-sm'> - Lorem ipsum dolor sit amet.</p>
