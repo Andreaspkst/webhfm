@@ -1,4 +1,4 @@
-import { Mobile, Navbar, Registration } from './components';
+import { Mobile, Navbar, Registration, Hero } from './components';
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
         <Navbar />
         <Mobile />
         <Registration />
+        <Hero />
       </div>
   );
 }
