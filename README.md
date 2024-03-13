@@ -1,6 +1,9 @@
 ============================
+
 HF Markets Frontend Test 
+
 Developed and Designed by Andreas Papakostas
+
 ============================
 
 #Development
@@ -11,7 +14,8 @@ Github Project: https://github.com/Andreaspkst
 
 - Created React App with Vite, Installed Tailwind CSS and Added Assets to the Project
 - Created Components Folder, created index.js to Render Dynamically Components on the App
-- Installed react-icons, Created Navbar.jsx in Components Folder and used it on App.jsx
+- Installed react-icons, Created Navbar.jsx in Components Folder
+- Created Hero.jsx in Components Folder
 
 ============================
 

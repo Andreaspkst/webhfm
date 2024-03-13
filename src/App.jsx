@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import { Navbar } from './components';
+import { Mobile, Navbar } from './components';
 
 function App() {
 
   return (
       <div>
         <Navbar />
+        <Mobile />
       </div>
   );
 }
