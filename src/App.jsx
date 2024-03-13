@@ -1,4 +1,4 @@
-import { Mobile, Navbar, Registration, Hero, About } from './components';
+import { Mobile, Navbar, Registration, Hero, About, Download } from './components';
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
         <Registration />
         <Hero />
         <About />
+        <Download />
       </div>
   );
 }
